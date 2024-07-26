@@ -1,0 +1,54 @@
+/* 
+    RESET
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+    GENERAL
+*/
+.my-carousel {
+    width: 800px;
+    height: 500px;
+    background-color: brown;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-carousel .img-container {
+    height: 420px;
+    background-color: aqua;
+}
+
+.my-carousel .img-container>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+.my-carousel .img-container>img.active {
+    display: block;
+}
+
+.my-carousel .btn-container {
+    height: 80px;
+    display: flex;
+}
+
+.btn-container>button {
+    width: 50%;
+}
