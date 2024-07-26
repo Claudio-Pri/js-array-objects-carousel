@@ -17,8 +17,8 @@ html {
 */
 .my-carousel {
     width: 800px;
-    height: 500px;
-    background-color: brown;
+
+
 }
 
 main {
@@ -29,8 +29,8 @@ main {
 }
 
 .my-carousel .img-container {
-    height: 420px;
-    background-color: aqua;
+    height: 500px;
+
 }
 
 .my-carousel .img-container>img {
